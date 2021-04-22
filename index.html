@@ -7,6 +7,14 @@
     <title>Clock</title>
         
     <style>
+        #sentence {
+            font-size: 7em;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translateY(-50%) translateX(-50%);
+            -webkit-transform: translateY(-50%) translateX(-50%);
+        }
         #clock {
             font-size: 10em;
             position: absolute;
@@ -18,11 +26,8 @@
     </style>
 </head>
 <body>
-            <p>
-        <font size="4" color="#ff0000">
-            ※ NicrJST + 0.270ms だよおおおおおお※
-        </font>
-    </p>
+
+    <div class="sentence">NictJST + 0.270ms</div>
     <div id="clock">
         
     </div>
